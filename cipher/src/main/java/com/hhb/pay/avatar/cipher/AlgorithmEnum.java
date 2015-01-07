@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher;
+package com.hhb.pay.avatar.cipher;
 
 /**
  * <pre>
  * 算法枚举
  * </pre>
  *
- * @author tanghuai
- * @version $Id: AlgorithmEnum.java, v 0.1 2010-4-1 上午11:08:51 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: AlgorithmEnum.java, v 0.1 2010-4-1 上午11:08:51 haibo.huang Exp $
  */
 public enum AlgorithmEnum {
     AES("AES", "aes对称加解密算法"), 

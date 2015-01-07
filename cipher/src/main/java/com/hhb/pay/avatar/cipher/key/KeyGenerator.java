@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.key;
+package com.hhb.pay.avatar.cipher.key;
 
 import java.security.KeyPair;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 
-import com.alipay.avatar.cipher.AlgorithmEnum;
-import com.alipay.avatar.cipher.Container;
-import com.alipay.avatar.cipher.KeyPairString;
+import com.hhb.pay.avatar.cipher.AlgorithmEnum;
+import com.hhb.pay.avatar.cipher.Container;
+import com.hhb.pay.avatar.cipher.KeyPairString;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -18,8 +18,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * 密钥生成工具
  * </pre>
  *
- * @author tanghuai
- * @version $Id: KeyGenerator.java, v 0.1 2010-4-1 上午11:07:05 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: KeyGenerator.java, v 0.1 2010-4-1 上午11:07:05 haibo.huang Exp $
  */
 public class KeyGenerator {
 

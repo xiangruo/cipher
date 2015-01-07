@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2009 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.algorithm;
+package com.hhb.pay.avatar.cipher.algorithm;
 
 import java.security.NoSuchAlgorithmException;
 
@@ -16,8 +16,8 @@ import javax.crypto.spec.SecretKeySpec;
  * AES工具类
  * </pre>
  *
- * @author written by zhangzhao, migrated from bcm by tanghuai 
- * @version $Id: AES.java, v 0.1 2010-3-26 下午02:16:06 tanghuai Exp $
+ * @author written by zhangzhao, migrated from bcm by haibo.huang 
+ * @version $Id: AES.java, v 0.1 2010-3-26 下午02:16:06 haibo.huang Exp $
  */
 public class AES {
     //密钥算法

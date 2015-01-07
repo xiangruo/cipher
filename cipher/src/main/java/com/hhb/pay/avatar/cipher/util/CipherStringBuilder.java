@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.util;
+package com.hhb.pay.avatar.cipher.util;
 
 import java.util.Comparator;
 import java.util.Map;
@@ -17,8 +17,8 @@ import org.apache.commons.lang.StringUtils;
  * 待签名、待验签字符串构造器
  * </pre>
  *
- * @author tanghuai
- * @version $Id: CipherStringBuilder.java, v 0.1 2010-4-2 下午01:46:25 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: CipherStringBuilder.java, v 0.1 2010-4-2 下午01:46:25 haibo.huang Exp $
  */
 public class CipherStringBuilder {
 
@@ -87,8 +87,8 @@ public class CipherStringBuilder {
      * 升序比较器
      * </pre>
      *
-     * @author tanghuai
-     * @version $Id: CipherStringBuilder.java, v 0.1 2010-4-7 下午05:41:05 tanghuai Exp $
+     * @author haibo.huang
+     * @version $Id: CipherStringBuilder.java, v 0.1 2010-4-7 下午05:41:05 haibo.huang Exp $
      */
     private static class AscendingComparator implements Comparator<String> {
 
@@ -102,8 +102,8 @@ public class CipherStringBuilder {
      * 降序比较器
      * </pre>
      *
-     * @author tanghuai
-     * @version $Id: CipherStringBuilder.java, v 0.1 2010-4-7 下午05:41:08 tanghuai Exp $
+     * @author haibo.huang
+     * @version $Id: CipherStringBuilder.java, v 0.1 2010-4-7 下午05:41:08 haibo.huang Exp $
      */
     private static class DscendingComparator implements Comparator<String> {
 

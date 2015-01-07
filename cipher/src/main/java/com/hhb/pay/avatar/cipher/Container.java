@@ -2,22 +2,22 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher;
+package com.hhb.pay.avatar.cipher;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.alipay.avatar.cipher.adapter.AesAdapter;
-import com.alipay.avatar.cipher.adapter.AlgorithmInterface;
-import com.alipay.avatar.cipher.adapter.RsaAdapter;
+import com.hhb.pay.avatar.cipher.adapter.AesAdapter;
+import com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface;
+import com.hhb.pay.avatar.cipher.adapter.RsaAdapter;
 
 /**
  * <pre>
  * 算法容器
  * </pre>
  *
- * @author tanghuai
- * @version $Id: Container.java, v 0.1 2010-4-1 下午12:16:15 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: Container.java, v 0.1 2010-4-1 下午12:16:15 haibo.huang Exp $
  */
 public class Container {
 

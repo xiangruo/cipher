@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher;
+package com.hhb.pay.avatar.cipher;
 
 /**
  * <pre>
  * 密钥对字串，封装了base64转换操作，方便客户端使用
  * </pre>
  *
- * @author tanghuai
- * @version $Id: KeyPairString.java, v 0.1 2010-4-5 上午11:14:23 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: KeyPairString.java, v 0.1 2010-4-5 上午11:14:23 haibo.huang Exp $
  */
 public class KeyPairString {
     /** 公钥字串*/

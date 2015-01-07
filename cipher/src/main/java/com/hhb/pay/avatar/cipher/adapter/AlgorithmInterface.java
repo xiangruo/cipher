@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.adapter;
+package com.hhb.pay.avatar.cipher.adapter;
 
 import java.security.KeyPair;
 
@@ -11,8 +11,8 @@ import java.security.KeyPair;
  * 抽象算法接口
  * </pre>
  *
- * @author tanghuai
- * @version $Id: AlgorithmInterface.java, v 0.1 2010-4-1 下午09:16:20 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: AlgorithmInterface.java, v 0.1 2010-4-1 下午09:16:20 haibo.huang Exp $
  */
 public interface AlgorithmInterface {
 

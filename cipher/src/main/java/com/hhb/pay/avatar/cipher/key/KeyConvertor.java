@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.key;
+package com.hhb.pay.avatar.cipher.key;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
@@ -11,8 +11,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * 密钥格式转换器
  * </pre>
  *
- * @author tanghuai
- * @version $Id: KeyConvertor.java, v 0.1 2010-6-18 上午11:25:12 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: KeyConvertor.java, v 0.1 2010-6-18 上午11:25:12 haibo.huang Exp $
  */
 public class KeyConvertor {
 

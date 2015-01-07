@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher;
+package com.hhb.pay.avatar.cipher;
 
 /**
  * <pre>
  * 签名、验签工具类
  * </pre>
  *
- * @author tanghuai
- * @version $Id: Certificate.java, v 0.1 2010-4-1 上午11:01:37 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: Certificate.java, v 0.1 2010-4-1 上午11:01:37 haibo.huang Exp $
  */
 public class Certificate {
 

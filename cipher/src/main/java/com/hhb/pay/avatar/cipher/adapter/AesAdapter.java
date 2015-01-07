@@ -2,11 +2,11 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.adapter;
+package com.hhb.pay.avatar.cipher.adapter;
 
 import java.security.KeyPair;
 
-import com.alipay.avatar.cipher.algorithm.AES;
+import com.hhb.pay.avatar.cipher.algorithm.AES;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -14,8 +14,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * AES算法适配器
  * </pre>
  *
- * @author tanghuai
- * @version $Id: AesAdapter.java, v 0.1 2010-4-1 下午09:18:08 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: AesAdapter.java, v 0.1 2010-4-1 下午09:18:08 haibo.huang Exp $
  */
 public class AesAdapter implements AlgorithmInterface {
 
@@ -23,7 +23,7 @@ public class AesAdapter implements AlgorithmInterface {
      * @param key
      * @param txt
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#sign(java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#sign(java.lang.String, java.lang.String)
      */
     public String sign(String key, String txt) {
         throw new UnsupportedOperationException();
@@ -34,7 +34,7 @@ public class AesAdapter implements AlgorithmInterface {
      * @param txt
      * @param signed
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#verify(java.lang.String, java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#verify(java.lang.String, java.lang.String, java.lang.String)
      */
     public boolean verify(String key, String txt, String signed) {
         throw new UnsupportedOperationException();
@@ -43,7 +43,7 @@ public class AesAdapter implements AlgorithmInterface {
     /** 
      * @param keySize
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#generateKey(int)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#generateKey(int)
      */
     public String generateKey(int keySize) {
         byte[] keyByte = AES.generateKey(keySize);
@@ -54,7 +54,7 @@ public class AesAdapter implements AlgorithmInterface {
      * @param key
      * @param ciphertext
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#decrypt(java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#decrypt(java.lang.String, java.lang.String)
      */
     public String decrypt(String key, String ciphertext) {
         byte[] keyByte = Base64.decode(key);
@@ -66,7 +66,7 @@ public class AesAdapter implements AlgorithmInterface {
      * @param key
      * @param plaintext
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#encrypt(java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#encrypt(java.lang.String, java.lang.String)
      */
     public String encrypt(String key, String plaintext) {
         byte[] keyByte = Base64.decode(key);
@@ -78,7 +78,7 @@ public class AesAdapter implements AlgorithmInterface {
      * @param keySize
      * @param seed
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#generateKeyPair(int, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#generateKeyPair(int, java.lang.String)
      */
     public KeyPair generateKeyPair(int keySize, String seed) {
         throw new UnsupportedOperationException();

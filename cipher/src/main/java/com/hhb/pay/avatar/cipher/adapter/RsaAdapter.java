@@ -2,11 +2,11 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.adapter;
+package com.hhb.pay.avatar.cipher.adapter;
 
 import java.security.KeyPair;
 
-import com.alipay.avatar.cipher.algorithm.RSA;
+import com.hhb.pay.avatar.cipher.algorithm.RSA;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -14,8 +14,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * RSA算法适配器
  * </pre>
  *
- * @author tanghuai
- * @version $Id: RsaAdapter.java, v 0.1 2010-4-1 下午09:18:32 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: RsaAdapter.java, v 0.1 2010-4-1 下午09:18:32 haibo.huang Exp $
  */
 public class RsaAdapter implements AlgorithmInterface {
 
@@ -23,7 +23,7 @@ public class RsaAdapter implements AlgorithmInterface {
      * @param key
      * @param txt
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#sign(java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#sign(java.lang.String, java.lang.String)
      */
     public String sign(String key, String txt) {
         byte[] signedArray = RSA.sign(Base64.decode(key), txt.getBytes());
@@ -35,7 +35,7 @@ public class RsaAdapter implements AlgorithmInterface {
      * @param txt
      * @param signed
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#verify(java.lang.String, java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#verify(java.lang.String, java.lang.String, java.lang.String)
      */
     public boolean verify(String key, String txt, String signed) {
         return RSA.verify(Base64.decode(key), txt.getBytes(), Base64.decode(signed));
@@ -45,7 +45,7 @@ public class RsaAdapter implements AlgorithmInterface {
      * @param key
      * @param ciphertext
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#decrypt(java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#decrypt(java.lang.String, java.lang.String)
      */
     public String decrypt(String key, String ciphertext) {
         throw new UnsupportedOperationException();
@@ -55,7 +55,7 @@ public class RsaAdapter implements AlgorithmInterface {
      * @param key
      * @param plaintext
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#encrypt(java.lang.String, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#encrypt(java.lang.String, java.lang.String)
      */
     public String encrypt(String key, String plaintext) {
         throw new UnsupportedOperationException();
@@ -64,7 +64,7 @@ public class RsaAdapter implements AlgorithmInterface {
     /** 
      * @param keySize
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#generateKey(int)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#generateKey(int)
      */
     public String generateKey(int keySize) {
         throw new UnsupportedOperationException();
@@ -74,7 +74,7 @@ public class RsaAdapter implements AlgorithmInterface {
      * @param keySize
      * @param seed
      * @return
-     * @see com.alipay.avatar.cipher.adapter.AlgorithmInterface#generateKeyPair(int, java.lang.String)
+     * @see com.hhb.pay.avatar.cipher.adapter.AlgorithmInterface#generateKeyPair(int, java.lang.String)
      */
     public KeyPair generateKeyPair(int keySize, String seed) {
         return RSA.generateKeyPair(keySize, seed.getBytes());

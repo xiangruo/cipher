@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2009 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.algorithm;
+package com.hhb.pay.avatar.cipher.algorithm;
 
 import java.security.InvalidKeyException;
 import java.security.KeyFactory;
@@ -19,8 +19,8 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
 /**
- * @author tanghuai
- * @version $Id: RSA.java, v 0.1 2010-3-28 下午02:16:06 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: RSA.java, v 0.1 2010-3-28 下午02:16:06 haibo.huang Exp $
  */
 public class RSA {
     //密钥长度

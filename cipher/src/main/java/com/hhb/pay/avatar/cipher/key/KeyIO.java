@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.key;
+package com.hhb.pay.avatar.cipher.key;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -24,8 +24,8 @@ import java.io.Writer;
  * 密钥输入输出工具
  * </pre>
  *
- * @author tanghuai
- * @version $Id: KeyIO.java, v 0.1 2010-4-9 下午05:16:17 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: KeyIO.java, v 0.1 2010-4-9 下午05:16:17 haibo.huang Exp $
  */
 public class KeyIO {
 
