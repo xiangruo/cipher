@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2005-2010 All Rights Reserved.
  */
-package com.alipay.avatar.cipher.adapter;
+package com.hhb.pay.avatar.cipher.adapter;
 
 import java.security.KeyPair;
 import java.security.PrivateKey;

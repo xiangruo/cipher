@@ -1,4 +1,4 @@
-package com.alipay.avatar.cipher.util;
+package com.hhb.pay.avatar.cipher.util;
 
 import java.util.HashMap;
 import java.util.Map;
