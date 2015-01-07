@@ -129,11 +129,9 @@ public class WriteDBToJava {
 	}
 	
 	
+	
 	/**
-	 * 
-	 * Description: 生成mybatis文件
-	 * @Version1.0 2014-3-12 上午9:23:07 by jk（jiake@ucfgroup.com）创建
-	 * @param mTables
+	 * @param mybatis
 	 */
 	public static void writeXML(Map<String,List<Colm>> mTables){
 		Set<String> set = mTables.keySet();
@@ -275,11 +273,9 @@ public class WriteDBToJava {
 	
 	
 	
+	
 	/**
-	 * 添加系统异常引入
-	 * Description: 生成DAO接口文件
-	 * @Version1.0 2014-3-12 上午9:17:24 by jk（jiake@ucfgroup.com）创建
-	 * @param mTables
+	 * @param dao
 	 */
 	public static void writeDAO(Map<String,List<Colm>> mTables){
 		Set<String> set = mTables.keySet();
@@ -316,11 +312,9 @@ public class WriteDBToJava {
 	}
 	
 	
+	
 	/**
-	 * 添加系统异常引入
-	 * Description: 生成DAO文件
-	 * @Version1.0 2014-3-12 上午9:18:44 by jk（jiake@ucfgroup.com）创建
-	 * @param mTables
+	 * @param daoImpl
 	 */
 	public static void writeDAOImpl(Map<String,List<Colm>> mTables){
 		Set<String> set = mTables.keySet();

@@ -19,11 +19,10 @@ import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 /**
- * 
- * Description: orm All Rights Reserved.
- * 
- * @version 1.0 2014-3-10
+ * @author haibo.huang
+ *
  */
 public class AutoBean {
 	private static final Logger LOGGER = LoggerFactory.getLogger(AutoBean.class);
@@ -31,22 +30,13 @@ public class AutoBean {
 	private static Connection conn;
 	private static Statement stm;
 	private static ResultSet rs;
-	//private static String driver = "oracle.jdbc.driver.OracleDriver";
-	//private static String url = "jdbc:oracle:thin:@10.20.5.201:1521:xfdb";
 	private static String driver = "com.mysql.jdbc.Driver";
-	private static String url = "jdbc:mysql://172.27.9.15:3306/trade";
-	private static String username = "work@TCL";
-	private static String password = "Geeker4DB";
-	private static String packageName = "com.tcl.trade.dao.";
+	private static String url = "jdbc:mysql://localhost:3306/test";
+	private static String username = "root";
+	private static String password = "root";
+	private static String packageName = "com.hhb.dao.";
 
-	/**
-	 * Description:
-	 * @Version1.0 2014-3-10
-	 * @param args
-	 * @throws InstantiationException
-	 * @throws IllegalAccessException
-	 * @throws ClassNotFoundException
-	 */
+	
 	public static void main(String[] args) throws InstantiationException,
 			IllegalAccessException, ClassNotFoundException {
 
@@ -255,11 +245,8 @@ public class AutoBean {
 		return sb.toString();
 	}
 
+	
 	/**
-	 * 
-	 * Description:
-	 * 
-	 * @Version1.0 2014-3-10
 	 * @param type
 	 * @return
 	 */
@@ -291,11 +278,8 @@ public class AutoBean {
 		}
 	}
 
+	
 	/**
-	 * 
-	 * Description: ???jdbcType=NUMERIC,javaType=MONEY
-	 * 
-	 * @Version1.0 2014-3-10
 	 * @param type
 	 * @return
 	 */
