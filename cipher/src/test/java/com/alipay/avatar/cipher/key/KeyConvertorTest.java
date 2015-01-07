@@ -6,9 +6,9 @@ package com.alipay.avatar.cipher.key;
 
 import java.security.KeyPair;
 
-import com.alipay.avatar.cipher.AlgorithmEnum;
-import com.alipay.avatar.cipher.key.KeyConvertor;
-import com.alipay.avatar.cipher.key.KeyGenerator;
+import com.hhb.pay.avatar.cipher.AlgorithmEnum;
+import com.hhb.pay.avatar.cipher.key.KeyConvertor;
+import com.hhb.pay.avatar.cipher.key.KeyGenerator;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 import junit.framework.TestCase;
@@ -18,8 +18,8 @@ import junit.framework.TestCase;
  * 密钥格式转换器单元测试
  * </pre>
  *
- * @author tanghuai
- * @version $Id: KeyConvertorTest.java, v 0.1 2010-6-18 上午11:26:20 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: KeyConvertorTest.java, v 0.1 2010-6-18 上午11:26:20 haibo.huang Exp $
  */
 public class KeyConvertorTest extends TestCase {
 

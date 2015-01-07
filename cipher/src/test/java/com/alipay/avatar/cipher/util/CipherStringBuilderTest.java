@@ -3,6 +3,8 @@ package com.alipay.avatar.cipher.util;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.hhb.pay.avatar.cipher.util.CipherStringBuilder;
+
 import junit.framework.TestCase;
 
 /**
@@ -10,8 +12,8 @@ import junit.framework.TestCase;
  * 签名串构造器单元测试
  * </pre>
  *
- * @author tanghuai
- * @version $Id: SignStringBuilderTest.java, v 0.1 2010-4-2 下午03:00:35 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: SignStringBuilderTest.java, v 0.1 2010-4-2 下午03:00:35 haibo.huang Exp $
  */
 public class CipherStringBuilderTest extends TestCase {
 

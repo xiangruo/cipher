@@ -4,6 +4,8 @@
  */
 package com.alipay.avatar.cipher;
 
+import com.hhb.pay.avatar.cipher.AlgorithmEnum;
+
 import junit.framework.TestCase;
 
 /**
@@ -11,8 +13,8 @@ import junit.framework.TestCase;
  * 算法枚举测试
  * </pre>
  *
- * @author tanghuai
- * @version $Id: AlgorithmEnumTest.java, v 0.1 2010-4-2 下午03:52:01 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: AlgorithmEnumTest.java, v 0.1 2010-4-2 下午03:52:01 haibo.huang Exp $
  */
 public class AlgorithmEnumTest extends TestCase {
     

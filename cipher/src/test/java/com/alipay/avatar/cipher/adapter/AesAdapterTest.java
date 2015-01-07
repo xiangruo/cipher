@@ -4,9 +4,9 @@
  */
 package com.alipay.avatar.cipher.adapter;
 
-import com.alipay.avatar.cipher.AlgorithmEnum;
-import com.alipay.avatar.cipher.Cryptograph;
-import com.alipay.avatar.cipher.key.KeyGenerator;
+import com.hhb.pay.avatar.cipher.AlgorithmEnum;
+import com.hhb.pay.avatar.cipher.Cryptograph;
+import com.hhb.pay.avatar.cipher.key.KeyGenerator;
 
 import junit.framework.TestCase;
 
@@ -14,8 +14,8 @@ import junit.framework.TestCase;
  * <pre>
  * AES适配器测试
  * </pre>
- * @author tanghuai
- * @version $Id: AesAdapterTest.java, v 0.1 2010-4-1 下午09:43:08 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: AesAdapterTest.java, v 0.1 2010-4-1 下午09:43:08 haibo.huang Exp $
  */
 public class AesAdapterTest extends TestCase {
     

@@ -10,8 +10,11 @@ import java.security.KeyPair;
 
 import junit.framework.TestCase;
 
-import com.alipay.avatar.cipher.AlgorithmEnum;
-import com.alipay.avatar.cipher.Certificate;
+import com.hhb.pay.avatar.cipher.AlgorithmEnum;
+import com.hhb.pay.avatar.cipher.Certificate;
+import com.hhb.pay.avatar.cipher.key.KeyConvertor;
+import com.hhb.pay.avatar.cipher.key.KeyGenerator;
+import com.hhb.pay.avatar.cipher.key.KeyIO;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -19,8 +22,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * 密钥导入导出工具测试
  * </pre>
  * 
- * @author tanghuai
- * @version $Id: KeyIOTest.java, v 0.1 2010-4-9 下午09:00:03 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: KeyIOTest.java, v 0.1 2010-4-9 下午09:00:03 haibo.huang Exp $
  */
 public class KeyIOTest extends TestCase {
 	private static final String SEED = "";

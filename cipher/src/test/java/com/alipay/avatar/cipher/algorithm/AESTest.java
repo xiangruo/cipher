@@ -6,7 +6,7 @@ package com.alipay.avatar.cipher.algorithm;
 
 import junit.framework.TestCase;
 
-import com.alipay.avatar.cipher.algorithm.AES;
+import com.hhb.pay.avatar.cipher.algorithm.AES;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -14,8 +14,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * AES工具测试
  * </pre>
  *
- * @author tanghuai
- * @version $Id: RSATest.java, v 0.1 2010-3-28 下午02:46:57 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: RSATest.java, v 0.1 2010-3-28 下午02:46:57 haibo.huang Exp $
  */
 public class AESTest extends TestCase {
 

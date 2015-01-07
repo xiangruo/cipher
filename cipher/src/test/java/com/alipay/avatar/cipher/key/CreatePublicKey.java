@@ -6,10 +6,12 @@ package com.alipay.avatar.cipher.key;
 
 import java.io.File;
 
+import com.hhb.pay.avatar.cipher.key.KeyIO;
+
 /**
  *
- * @author zhe.wang
- * @version $Id: CreatePublicKey.java, v 0.1 2010-10-25 下午03:52:30 zhe.wang Exp $
+ * @author haibo.huang
+ * @version $Id: CreatePublicKey.java, v 0.1 2010-10-25 下午03:52:30 haibo.huang Exp $
  */
 public class CreatePublicKey {
 

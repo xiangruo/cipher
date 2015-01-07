@@ -10,10 +10,10 @@ import java.security.PublicKey;
 
 import junit.framework.TestCase;
 
-import com.alipay.avatar.cipher.AlgorithmEnum;
-import com.alipay.avatar.cipher.Certificate;
-import com.alipay.avatar.cipher.KeyPairString;
-import com.alipay.avatar.cipher.key.KeyGenerator;
+import com.hhb.pay.avatar.cipher.AlgorithmEnum;
+import com.hhb.pay.avatar.cipher.Certificate;
+import com.hhb.pay.avatar.cipher.KeyPairString;
+import com.hhb.pay.avatar.cipher.key.KeyGenerator;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -21,8 +21,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * AES适配器测试
  * </pre>
  *
- * @author tanghuai
- * @version $Id: RsaAdapterTest.java, v 0.1 2010-4-1 下午10:17:41 tanghuai Exp $
+ * @author haibo.huang
+ * @version $Id: RsaAdapterTest.java, v 0.1 2010-4-1 下午10:17:41 haibo.huang Exp $
  */
 public class RsaAdapterTest extends TestCase {
 

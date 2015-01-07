@@ -11,7 +11,7 @@ import java.security.PublicKey;
 
 import junit.framework.TestCase;
 
-import com.alipay.avatar.cipher.algorithm.RSA;
+import com.hhb.pay.avatar.cipher.algorithm.RSA;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 /**
@@ -19,8 +19,8 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
  * RSA工具测试
  * </pre>
  *
- * @author tanghuai
- * @version $Id: RSATest.java, v 0.1 2010-3-28 下午02:46:57 tanghuai Exp $
+ * @author 
+ * @version $Id: RSATest.java, v 0.1 2010-3-28 下午02:46:57  Exp $
  */
 public class RSATest extends TestCase {
 
